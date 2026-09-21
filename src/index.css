@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6C63FF;
+  --color-secondary: #2D2D3F;
+  --color-dark: #1A1A2E;
+  --color-light: #F5F5FA;
+  --color-accent: #FF6B6B;
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-light mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-gray-400 max-w-2xl;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+  
+  /* ✅ Correct v4 syntax */
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-white font-medium rounded-lg 
+           hover:bg-primary/80 transition-all duration-300 
+           hover:scale-105 shadow-lg shadow-primary/25;
+  }
+  
+  .card {
+    @apply bg-secondary/50 backdrop-blur-sm rounded-xl p-6 
+           border border-gray-700/50 hover:border-primary/50 
+           transition-all duration-300 hover:shadow-xl hover:shadow-primary/10;
+  }
+}
