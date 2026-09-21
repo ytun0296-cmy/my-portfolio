@@ -60,7 +60,7 @@ export const projects = [
     image: portfolio,
     tech: ['React', 'Vite', 'Tailwind', 'Framer Motion'],
     demo: 'https://demo.com',
-    github: 'https://github.com/yourusername/portfolio',
+    github: 'https://github.com/ytun0296-cmy/my-portfolio',
     featured: true,
   },
   // {
