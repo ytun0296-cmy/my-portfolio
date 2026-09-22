@@ -59,7 +59,7 @@ export const projects = [
     description: 'Modern developer portfolio built with React and Tailwind CSS',
     image: portfolio,
     tech: ['React', 'Vite', 'Tailwind', 'Framer Motion'],
-    demo: 'https://demo.com',
+    demo: 'https://my-portfolio-zeta-ten-90.vercel.app/',
     github: 'https://github.com/ytun0296-cmy/my-portfolio',
     featured: true,
   },
