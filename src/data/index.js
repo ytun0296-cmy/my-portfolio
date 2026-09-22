@@ -11,7 +11,7 @@ export const personalInfo = {
   phone: '+95 9974693595',
   location: 'Yangon, Myanmar',
   github: 'https://github.com/ytun0296-cmy',
-  resume: '/myCV.pdf',
+  resume: '/MY_CV.pdf',
   avatar: avatar,
 };
 
