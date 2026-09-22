@@ -3,5 +3,5 @@
 //   name: "YEMINTUN",
 //   title: "Frontend Developer",
 //   tagline: "Building digital experiences",
-//   resume: "/myCV.pdf", 
+//   resume: "/My_CV.pdf", 
 // };
