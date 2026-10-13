@@ -31,6 +31,8 @@ export const skills = {
     { name: 'Git/GitHub', icon: '🐙', level: 60 },
     { name: 'Figma', icon: '🎯', level: 50 },
     { name: 'Vite/Webpack', icon: '⚡', level: 75 },
+    {name: 'MySql', icon: '🗄️', level: 40},
+    {name: 'Node.js', icon: '🟢', level: 40},
   ],
 };
 
