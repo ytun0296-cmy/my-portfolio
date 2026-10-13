@@ -54,7 +54,7 @@ export const projects = [
     description: 'Collaborative task board with drag-and-drop and real-time updates',
     image: '/projects/taskapp.jpg',
     tech: ['React.js', 'JavaScript', 'Tailwind', 'Redux'],
-    demo: 'https://demo.com',
+    demo: '',
     github: 'https://github.com/yourusername/taskapp',
     featured: false,
   },
