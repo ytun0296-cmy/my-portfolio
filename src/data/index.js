@@ -18,16 +18,19 @@ export const personalInfo = {
 // Skills Data
 export const skills = {
   frontend: [
-    { name: 'React', icon: '⚛️', level: 80 },
+    { name: 'React', icon: '⚛️', level: 70 },
     { name: 'JavaScript', icon: '🟨', level: 60 },
-    { name: 'Tailwind CSS', icon: '🎨', level: 80 },
-    { name: 'Bootstrap CSS', icon: '🔧', level: 70 },
-    { name: 'HTML/CSS', icon: '🌐', level: 85 },
+    { name: 'HTML/CSS', icon: '🌐', level: 65 },
+    { name: 'PHP', icon: '🐘', level: 50 },
+    { name: 'Laravel', icon: '🛠️', level: 50 },
+    { name: 'Tailwind CSS', icon: '🎨', level: 70 },
+    { name: 'Bootstrap CSS', icon: '🔧', level: 60 }
+    
   ],
   tools: [
     { name: 'Git/GitHub', icon: '🐙', level: 60 },
     { name: 'Figma', icon: '🎯', level: 50 },
-    { name: 'Vite/Webpack', icon: '⚡', level: 80 },
+    { name: 'Vite/Webpack', icon: '⚡', level: 75 },
   ],
 };
 
